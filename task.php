@@ -131,10 +131,6 @@ $programming_languages = ["php", "ruby", "python", "javascript"];
 $programming_languages = array_map('ucfirst', $programming_languages);
 $upper_case_programming_languages = array_map('strtoupper', $programming_languages);
 
-print_r($programming_languages);
-echo PHP_EOL;
-print_r($upper_case_programming_languages);
-
   # 以下は変更しないで下さい
 print_r($programming_languages);
 echo PHP_EOL;
@@ -255,6 +251,8 @@ $new_data = [];
 foreach($data as $one_data){
     array_push($new_data, $one_data);
 }
+
+print_r($new_data);
 
 echo PHP_EOL;
 ?>
